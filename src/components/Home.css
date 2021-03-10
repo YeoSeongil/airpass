@@ -1,0 +1,81 @@
+a {
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  overflow: hidden;
+}
+
+.panel {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel span {
+  position: relative;
+  overflow: visible;
+  color: white;
+}
+
+.panel.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.062)),
+    url(../static/Img/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.panel.sub1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.062)),
+    url(../static/Img/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 500px;
+}
+
+.panel.sub2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.062)),
+    url(../static/Img/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 500px;
+}
+
+.panel.sub3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.062)),
+    url(../static/Img/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontborder {
+  border: 2px solid white;
+  width: 100px;
+  padding: 0.7rem;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 2.1rem;
+}
+
+.upBtn {
+  position: absolute;
+  bottom: 2.1rem;
+  right: 3.5rem;
+}
