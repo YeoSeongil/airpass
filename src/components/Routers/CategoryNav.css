@@ -1,0 +1,14 @@
+.category_nav {
+  margin-top: 7rem;
+}
+
+.category_nav_ul {
+  display: flex;
+}
+
+.category_nav_li {
+  padding: 0 0.5rem 0 0.5rem;
+  color: black;
+  font-size: 0.95rem;
+  font-weight: 500;
+}

@@ -74,6 +74,11 @@ a {
   bottom: 2.1rem;
 }
 
+.arrow:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .upBtn {
   position: absolute;
   bottom: 2.1rem;

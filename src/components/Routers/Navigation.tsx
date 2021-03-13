@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
-import {Link} from 'react-router-dom';
-import "../components/Navigation.css"
+import {Link,useLocation} from 'react-router-dom';
+import "../Routers/Navigation.css";
+
 
 function Navigation() {
     const [toggle, setToggle] = useState(false);
@@ -9,8 +10,9 @@ function Navigation() {
         setToggle(!toggle);
     }
     
+    const location = useLocation();
     return (
-        <div className="header_nav">
+        <div className={location.pathname==='/' ? 'header_nav' : 'header_nav dark'}>
             <Link to="/"><li className="header_nav_il logo">AirPass</li></Link>
             <ul className={toggle ? "header_nav_ul view" : "header_nav_ul"}>
                 <Link to="/search"><li className="header_nav_il">SEARCH</li></Link>

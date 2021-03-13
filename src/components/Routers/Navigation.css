@@ -50,9 +50,18 @@ li {
 .header__nav_toggleBtn:hover {
   cursor: pointer;
 }
+
 .header__nav_toggleBtn > i {
   font-size: 24px;
   color: white;
+}
+
+.header_nav.dark {
+  position: relative;
+}
+
+.header_nav.dark li {
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
