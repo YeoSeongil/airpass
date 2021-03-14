@@ -12,3 +12,7 @@
   font-size: 0.95rem;
   font-weight: 500;
 }
+
+.category_nav_li:hover {
+  opacity: 0.4;
+}

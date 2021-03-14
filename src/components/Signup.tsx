@@ -9,25 +9,21 @@ const Signup = () => {
 
     const onChangeIDHandler = (e:React.ChangeEvent<HTMLInputElement>) => {
         const {target:{value}}=e;
-        console.log(value);
         setId(value);
     }
 
     const onChangePWHandler = (e:React.ChangeEvent<HTMLInputElement>) => {
         const {target:{value}}=e;
-        console.log(value);
         setPw(value);
     }
 
     const onChangeNAMEHandler = (e:React.ChangeEvent<HTMLInputElement>) => {
         const {target:{value}}=e;
-        console.log(value);
         setName(value);
     }
 
     const onChangeEMAILHandler = (e:React.ChangeEvent<HTMLInputElement>) => {
         const {target:{value}}=e;
-        console.log(value);
         setEmail(value);
     }
 

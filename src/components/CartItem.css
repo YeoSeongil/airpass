@@ -1,0 +1,26 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin-top: 2rem;
+  box-shadow: rgb(0 0 0 / 50%) 0px 1px 5px 2px;
+  border-radius: 3px;
+}
+
+.cart-item-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 3px;
+}
+
+.cart-item-name {
+  margin-left: 10%;
+}
+.cart-item-price {
+  font-size: 25px;
+  margin-left: 10%;
+}
+
+i {
+  margin-left: 10%;
+}
