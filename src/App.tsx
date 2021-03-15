@@ -9,6 +9,7 @@ import Package from './components/category/Package';
 import Recomands from './components/category/Recomands';
 import Signup from './components/Signup';
 import Cart from './components/Cart';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/login" exact={true} component={Login}></Route>
         <Route path="/register" exact={true} component={Signup}></Route>
         <Route path="/cart" exact={true} component={Cart}></Route>
+        <Route path="/search" exact={true} component={Search}></Route>
         <Route path="/store/package" exact={true} component={Package}></Route>
         <Route path="/store/recomand" exact={true} component={Recomands}></Route>
       </Switch>

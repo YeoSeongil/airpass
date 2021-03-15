@@ -1,5 +1,5 @@
 import { Items } from "../ItemDis";
-import { ADD_ITEM, DEL_ITEM } from "./_types";
+import { ADD_ITEM, DEL_ITEM, SEARCH_ITEM } from "./_types";
 
 let nextId = 0;
 
@@ -20,6 +20,18 @@ export const delCart = (item:Items) => {
     }
 }
 
+export const searchItem = (item:Items, input:any) => {
+    return {
+        type:SEARCH_ITEM,
+        payload:{
+            id:nextId++,
+            input,
+            item
+        }
+    }
+}
+
 export type ActionTypes = ReturnType<typeof addCart>
  | ReturnType<typeof delCart>
+ | ReturnType<typeof searchItem>
 
